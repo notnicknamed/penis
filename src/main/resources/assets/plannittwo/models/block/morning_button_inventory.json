@@ -1,0 +1,6 @@
+{
+  "parent": "block/button_inventory",
+  "textures": {
+    "texture": "plannittwo:blocks/morning_planks"
+  }
+}

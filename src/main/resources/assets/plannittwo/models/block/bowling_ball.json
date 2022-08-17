@@ -1,0 +1,17 @@
+{
+  "parent": "forge:item/default",
+  "loader": "forge:composite",
+  "parts": {
+    "part1": {
+      "loader": "forge:obj",
+      "model": "plannittwo:models/item/bowling_ball_man.obj",
+      "ambientToFullbright": true,
+      "textures": {
+        "#m_0": "plannittwo:blocks/bowling_ball_man"
+      }
+    }
+  },
+  "textures": {
+    "particle": "plannittwo:blocks/bowling_ball_man"
+  }
+}

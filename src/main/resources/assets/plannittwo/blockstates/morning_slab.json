@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "plannittwo:block/morning_slab"
+    },
+    "type=top": {
+      "model": "plannittwo:block/morning_slab_top"
+    },
+    "type=double": {
+      "model": "plannittwo:block/morning_slab_full"
+    }
+  }
+}

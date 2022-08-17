@@ -1,0 +1,8 @@
+{
+  "parent": "plannittwo:custom/model",
+  "textures": {
+    "all": "plannittwo:blocks/block",
+    "particle": "plannittwo:blocks/block",
+    "0": "plannittwo:blocks/block"
+  }
+}

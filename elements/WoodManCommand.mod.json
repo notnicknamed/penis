@@ -1,0 +1,12 @@
+{
+  "_fv": 28,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "G",
+    "keyBindingName": "Wood Man Command",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "WoodManCommandOnKeyPressed"
+    }
+  }
+}

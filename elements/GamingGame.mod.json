@@ -1,0 +1,57 @@
+{
+  "_fv": 28,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "GAMING MAN",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "GAMING MAN",
+          "x": 43,
+          "y": 175
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "CUM",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "CUM",
+          "x": 337,
+          "y": 22
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "ADWHODUIAHW",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "ADWHODUIAHW",
+          "x": 192,
+          "y": 114
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Inventory",
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

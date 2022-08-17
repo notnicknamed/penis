@@ -1,0 +1,871 @@
+{
+  "mod_elements": [
+    {
+      "name": "Bowlerbear",
+      "type": "livingentity",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bowlerbear"
+    },
+    {
+      "name": "Penis",
+      "type": "rangeditem",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "penis"
+    },
+    {
+      "name": "BowlerbearEntityIsHurt",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bowlerbear_entity_is_hurt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BouncingRod",
+      "type": "livingentity",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bouncing_rod"
+    },
+    {
+      "name": "BowlingBall",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bowling_ball"
+    },
+    {
+      "name": "Stillager",
+      "type": "livingentity",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stillager"
+    },
+    {
+      "name": "PlaniteArmor",
+      "type": "armor",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "planite_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "PlaniteArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "planite_armor_helmet_recipe"
+    },
+    {
+      "name": "PlaniteArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "planite_armor_body_recipe"
+    },
+    {
+      "name": "PlaniteArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "planite_armor_leggings_recipe"
+    },
+    {
+      "name": "PlaniteArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "planite_armor_boots_recipe"
+    },
+    {
+      "name": "Jiojioawd",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jiojioawd",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RenderDragon",
+      "type": "livingentity",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "render_dragon"
+    },
+    {
+      "name": "RenderDragonProcedure",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "render_dragon_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Killager",
+      "type": "livingentity",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "killager"
+    },
+    {
+      "name": "KillagerPlayerCollidesWithThisEntity",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "killager_player_collides_with_this_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Terracottage",
+      "type": "structure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "terracottage"
+    },
+    {
+      "name": "Bullet",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bullet"
+    },
+    {
+      "name": "BulletRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bullet_recipe"
+    },
+    {
+      "name": "Deserteaglerecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deserteaglerecipe"
+    },
+    {
+      "name": "DesertEagelPart2Rightclicked",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "desert_eagel_part_2_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Visibility",
+      "type": "potioneffect",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "visibility"
+    },
+    {
+      "name": "OVisibility",
+      "type": "potion",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "o_visibility"
+    },
+    {
+      "name": "VisibilityEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "visibility_effect_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RangedItem2",
+      "type": "rangeditem",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ranged_item_2"
+    },
+    {
+      "name": "DesertEagleRightclicked",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "desert_eagle_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VisibilityStarting",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "visibility_starting",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ConnorCommandExecuted",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "connor_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WoodManCommandOnKeyPressed",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wood_man_command_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ThisisAblockOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thisis_ablock_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Connor",
+      "type": "command",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "connor"
+    },
+    {
+      "name": "StairWaytOheavnRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stair_wayt_oheavn_recipe"
+    },
+    {
+      "name": "WoodManCommand",
+      "type": "keybind",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wood_man_command"
+    },
+    {
+      "name": "ThisisAblock",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thisis_ablock"
+    },
+    {
+      "name": "DesertEagle",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "desert_eagle"
+    },
+    {
+      "name": "ThisisAblockBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thisis_ablock_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StairwayToHeavenOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stairway_to_heaven_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TNTSlabRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tnt_slab_recipe"
+    },
+    {
+      "name": "AntiGolem",
+      "type": "livingentity",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anti_golem"
+    },
+    {
+      "name": "StairwayToHeaven",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stairway_to_heaven"
+    },
+    {
+      "name": "GamingGame",
+      "type": "overlay",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gaming_game"
+    },
+    {
+      "name": "MorningStickRecipe",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "morning_stick_recipe"
+    },
+    {
+      "name": "MorningFenceGate",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "morning_fence_gate"
+    },
+    {
+      "name": "MorningPlanksRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "morning_planks_recipe"
+    },
+    {
+      "name": "MorningButtonRecipe",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "morning_button_recipe"
+    },
+    {
+      "name": "TNTPickaxe",
+      "type": "tool",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tnt_pickaxe"
+    },
+    {
+      "name": "MorningPressurePlate",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "morning_pressure_plate"
+    },
+    {
+      "name": "MorningWoodRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "morning_wood_recipe"
+    },
+    {
+      "name": "MorningSlabRecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "morning_slab_recipe"
+    },
+    {
+      "name": "MorningLeaves",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "morning_leaves"
+    },
+    {
+      "name": "MorningFenceRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "morning_fence_recipe"
+    },
+    {
+      "name": "MorningLog",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "morning_log"
+    },
+    {
+      "name": "MorningFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "morning_fence_gate_recipe"
+    },
+    {
+      "name": "MorningWood",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "morning_wood"
+    },
+    {
+      "name": "MorningFence",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "morning_fence"
+    },
+    {
+      "name": "MorningButton",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "morning_button"
+    },
+    {
+      "name": "TNTPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tnt_pickaxe_recipe"
+    },
+    {
+      "name": "MorningSlab",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "morning_slab"
+    },
+    {
+      "name": "MorningItemsTag",
+      "type": "tag",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "morning_items_tag"
+    },
+    {
+      "name": "MorningStairsRecipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "morning_stairs_recipe"
+    },
+    {
+      "name": "Pee",
+      "type": "fluid",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pee",
+      "metadata": {
+        "gb": true
+      }
+    },
+    {
+      "name": "MorningPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "morning_pressure_plate_recipe"
+    },
+    {
+      "name": "MorningStairs",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "morning_stairs"
+    },
+    {
+      "name": "MorningPlanks",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "morning_planks"
+    },
+    {
+      "name": "TNTPickaxeBlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tnt_pickaxe_block_destroyed_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HMMMMMMM",
+      "type": "villagertrade",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hmmmmmmm"
+    },
+    {
+      "name": "LotionMon",
+      "type": "structure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lotion_mon"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "visvar",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "deserteagleshootnoise",
+      "files": [
+        "desert_eagle_shoot_sound_effect_cs_-go"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "entity.plannittwo.render_dragon": "Render Dragon",
+      "item.plannittwo.planite_armor_boots": "Planite Boots",
+      "block.plannittwo.thisis_ablock": "TNT Slab",
+      "block.plannittwo.morning_stairs": "Morning Stairs",
+      "effect.plannittwo.visibility": "Visibility",
+      "item.plannittwo.planite_armor_leggings": "Planite Leggings",
+      "item.plannittwo.bullet": "Bullet",
+      "item.plannittwo.killager_spawn_egg": "Killager Spawn Egg",
+      "item.plannittwo.ranged_item_2": "Ranged Item 2",
+      "block.plannittwo.pee": "Pee",
+      "block.plannittwo.bowling_ball": "Bowling Ball",
+      "item.plannittwo.anti_golem_spawn_egg": "Anti Golem Spawn Egg",
+      "entity.plannittwo.anti_golem": "Anti Golem",
+      "item.minecraft.tipped_arrow.effect.o_visibility": "Arrow of Visibility",
+      "entity.plannittwo.bouncing_rod": "Bouncing Rod",
+      "item.plannittwo.desert_eagel": "Desert Eagel",
+      "block.plannittwo.stairway_to_heaven": "Stairway To Heaven",
+      "block.plannittwo.morning_button": "Morning Button",
+      "block.plannittwo.morning_wood": "Morning Wood",
+      "key.plannittwo.wood_man_command": "Wood Man Command",
+      "item.plannittwo.planite_armor_helmet": "Planite Helmet",
+      "block.plannittwo.morning_planks": "Morning Planks",
+      "item.plannittwo.stillager_spawn_egg": "Stillager Spawn Egg",
+      "block.plannittwo.morning_leaves": "Morning Leaves",
+      "subtitles.deserteagleshootnoise": "",
+      "item.plannittwo.penis": "Penis",
+      "item.minecraft.splash_potion.effect.o_visibility": "Splash Potion of Visibility",
+      "block.plannittwo.morning_slab": "Morning Slab",
+      "block.plannittwo.morning_fence": "Morning Fence",
+      "item.plannittwo.planite_armor_chestplate": "Planite Chestplate",
+      "block.plannittwo.morning_fence_gate": "Morning Fence Gate",
+      "entity.plannittwo.stillager": "Stillager",
+      "item.plannittwo.pee_bucket": "Pee Bucket",
+      "entity.plannittwo.killager": "Killager",
+      "item.minecraft.lingering_potion.effect.o_visibility": "Lingering Potion of Visibility",
+      "entity.plannittwo.bowlerbear": "Bowler Bear",
+      "item.plannittwo.render_dragon_spawn_egg": "Render Dragon Spawn Egg",
+      "item.plannittwo.desert_eagel_part_2": "Desert Eagel Part 2",
+      "item.plannittwo.bowlerbear_spawn_egg": "Bowler Bear Spawn Egg",
+      "item.minecraft.potion.effect.o_visibility": "Potion of Visibility",
+      "item.plannittwo.desert_eagle": "Desert Eagle",
+      "item.plannittwo.bouncing_rod_spawn_egg": "Bouncing Rod Spawn Egg",
+      "block.plannittwo.morning_log": "Morning Log",
+      "fluid.plannittwo.pee": "Pee",
+      "item.plannittwo.tnt_pickaxe": "TNT Pickaxe",
+      "block.plannittwo.morning_pressure_plate": "Morning Pressure Plate"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "plannittwo",
+    "modName": "Plannittwo",
+    "version": "1.0.0",
+    "author": "linux, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "net.mcreator.plannittwo",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}

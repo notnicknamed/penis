@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3  ",
+    "6  "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_ingot"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    },
+    "2": {
+      "item": "minecraft:iron_ingot"
+    },
+    "3": {
+      "item": "minecraft:copper_ingot"
+    },
+    "6": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "result": {
+    "item": "plannittwo:deleted_mod_element",
+    "count": 1
+  }
+}

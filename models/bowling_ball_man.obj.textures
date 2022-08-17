@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "m_0": "bowling_ball_man"
+      },
+      "name": "default"
+    }
+  }
+}

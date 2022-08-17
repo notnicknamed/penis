@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "plannittwo:blocks/morning_planks",
+    "particle": "plannittwo:blocks/morning_planks"
+  }
+}

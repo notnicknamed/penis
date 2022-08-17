@@ -1,0 +1,9 @@
+{
+  "parent": "plannittwo:custom/the_deagle_new",
+  "textures": {
+    "0": "plannittwo:blocks/cumming",
+    "1": "plannittwo:blocks/texture2",
+    "2": "plannittwo:blocks/texture3",
+    "particle": "plannittwo:items/deserteagle"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:tnt"
+    },
+    "1": {
+      "item": "minecraft:tnt"
+    },
+    "2": {
+      "item": "minecraft:tnt"
+    },
+    "4": {
+      "item": "plannittwo:thisis_ablock"
+    },
+    "7": {
+      "item": "plannittwo:thisis_ablock"
+    }
+  },
+  "result": {
+    "item": "plannittwo:tnt_pickaxe",
+    "count": 1
+  }
+}

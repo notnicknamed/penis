@@ -1,0 +1,11 @@
+{
+  "deserteagleshootnoise": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "plannittwo:desert_eagle_shoot_sound_effect_cs_-go",
+        "stream": false
+      }
+    ]
+  }
+}

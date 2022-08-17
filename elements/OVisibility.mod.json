@@ -1,0 +1,21 @@
+{
+  "_fv": 28,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Visibility",
+    "splashName": "Splash Potion of Visibility",
+    "lingeringName": "Lingering Potion of Visibility",
+    "arrowName": "Arrow of Visibility",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Visibility"
+        },
+        "duration": 3600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "plannittwo:blocks/morning_planks",
+    "particle": "plannittwo:blocks/morning_planks"
+  }
+}
